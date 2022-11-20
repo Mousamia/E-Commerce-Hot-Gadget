@@ -1,0 +1,198 @@
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.custombg {
+  background: black url("../src/images/dot.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.carousel-inner {
+  height: 400px;
+  position: relative;
+}
+
+.carousel-item {
+  background-size: contain;
+}
+
+.carousel-caption {
+  position: absolute;
+  z-index: 22;
+  top: 10%;
+  font-family: poppins;
+  font-size: 40px;
+  opacity: 1;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background: #0e0d0d;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.ads {
+  background: cyan, url(../src/images/dot.jpg);
+}
+
+.first .img {
+  padding-left: 8%;
+  background-color: aqua;
+}
+
+.mid {
+  border-radius: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-tabs {
+  position: relative;
+}
+
+.pag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 35px;
+  border-bottom: none;
+}
+
+.pag li {
+  color: blue;
+}
+
+.pag :hover {
+  color: #0a4fbe;
+}
+
+.break {
+  background-color: #0055db;
+  height: 150px;
+}
+
+.new {
+  background-color: #121314;
+  height: 180px;
+  padding-top: 50px;
+  z-index: -99;
+}
+
+.new button {
+  background-color: #1956b8;
+  padding: 8px 16px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .new {
+    height: 180px;
+    padding-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  button {
+    padding: 4px 12px;
+  }
+}
+
+.important ul {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .important ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.social-handels ul {
+  list-style-type: none;
+}
+
+.social-handels ul li {
+  font-size: 30px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.social-handels ul li :hover {
+  color: #0055db;
+}
+
+.copyright .pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.copyright .pricing p {
+  font-weight: lighter;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+/*# sourceMappingURL=custom.css.map */

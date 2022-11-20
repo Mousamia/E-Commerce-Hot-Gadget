@@ -1,0 +1,43 @@
+<div class="new container">
+    <div class=" d-flex flex-row justify-content-around row ">
+      <div class="logo col-sm-12">LOGO</div>
+      <div class="gmail col-sm-12">
+        Contact Us
+        <br>
+        <p>conactus@gmail.com</p>
+      </div>
+      <div class="customer-care col-sm-12">
+        customer-care <br>
+        <span> 092834623</span>
+      </div>
+      <button class="border rounded-pill fw-bold col-md-4 "> <i class="fa-solid fa-location-dot"></i> Store Locator</button>
+
+    </div>
+    
+  </div>
+
+
+  @media(max-width:700px){
+    .break{
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        .new{
+            height: 300px;
+        }
+    }
+}
+
+
+
+<div class="break container-fluid bg-primary">
+   <div class="container bg-dark w-100 new">
+    <div class="row">
+      <div class="col-sm-3 logo">logo </div>
+      <div class="col-sm-3 logo">Contact us </div>
+      <div class="col-sm-3 logo">Customer-Care </div>
+      <div class="col-sm-3  logo"><button class="rounded-pill"> <i class="fa-solid fa-location-dot"></i> Store Locator</button> </div>
+    </div>
+
+   </div>
+</div>
